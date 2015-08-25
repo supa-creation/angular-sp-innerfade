@@ -1,0 +1,38 @@
+{
+  "name": "angular-sp-innerfade",
+  "version": "0.0.1",
+  "authors": [
+    "supa-creation.com <contact@supa-creation.com>"
+  ],
+  "description": "angular-sp-innerfade is a AngularJs plugin allowing to fade content in a Box",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/supa-creation/angular-sp-innerfade.git"
+  },
+  "main": [
+    "dist/angular-sp-innerfade.min.css",
+    "dist/angular-sp-innerfade.min.js"
+  ],
+  "dependencies": {
+    "angular": "~1.4.2"
+  },
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "innerfade",
+    "fade",
+    "javascript",
+    "image"
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "tests",
+    "node_modules"
+  ],
+  "license": "MIT"
+}

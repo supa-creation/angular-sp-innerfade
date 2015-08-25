@@ -1,0 +1,28 @@
+.sp-innerfade {
+  position: relative;
+  -moz-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s; }
+  .sp-innerfade img {
+    max-width: 100%; }
+
+.sp-innerfade-item {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  -moz-transition: opacity 1s, left 1s;
+  -o-transition: opacity 1s, left 1s;
+  -webkit-transition: opacity 1s, left 1s;
+  transition: opacity 1s, left 1s; }
+  .sp-innerfade-item.ng-hide {
+    display: block !important;
+    z-index: 1;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0; }
+
+/*# sourceMappingURL=angular-sp-innerfade.css.map */
