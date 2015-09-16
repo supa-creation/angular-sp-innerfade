@@ -1,6 +1,6 @@
 {
   "name": "angular-sp-innerfade",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "angular-sp-innerfade is a AngularJs plugin allowing to fade content in a Box",
   "main": "Gruntfile.js",
   "scripts": {
